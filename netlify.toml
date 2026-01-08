@@ -20,3 +20,11 @@
     for = "/*"
     [headers.values]
       Access-Control-Allow-Origin = "*"
+
+      
+[[redirects]]
+  from = "/data/uptime.json"
+  to = "https://netlify-uptime-json-bucket.s3.us-east-1.amazonaws.com/netlify/data/uptime.json"
+  status = 200
+  force = true
+
