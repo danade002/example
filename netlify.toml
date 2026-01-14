@@ -24,7 +24,7 @@
       
 [[redirects]]
   from = "/data/uptime.json"
-  to = "https://cw-syn-results-623546374200-us-east-1.s3.amazonaws.com/canary/us-east-1/canary-acsdataplatform-ff7-100e314ffcd4/n"
+  to = "https://netlify-uptime-json-bucket.s3.amazonaws.com/netlify/data/uptime.json"
   status = 200
   force = true
 
