@@ -412,3 +412,9 @@ outputFormats:
   svg:
     isPlainText: true
     mediaType: image/svg+xml
+
+    
+components:
+  - name: API
+  - name: Uploader
+  - name: Public URL
