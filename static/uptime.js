@@ -1,4 +1,3 @@
-<script>
 (async function () {
   const url = "https://dzwoqltsvi8zj.cloudfront.net/netlify/data/uptime.json";
   const res = await fetch(url, { cache: "no-store" });
@@ -71,4 +70,3 @@
     }
   });
 })();
-</script>
